@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+h1,
+h2,
+h3 {
+  display: inline-block;
+  color: white;
+}
+
+.tickect-container {
+  background-color: #101010;
+  width: 55rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.tickect-container .Title {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0 0 2em;
+}
+
+.tickect-container .Title .t2 {
+  padding-left: 0.7em;
+}
+
+.tickect-container .Title .t1,
+.t2 {
+  font-size: 2.5em;
+  transform: translate(0.1em);
+  letter-spacing: 2px;
+}
+
+.croix-rouge {
+  position: absolute;
+  margin-top: 1.8em;
+  margin-left: -1em;
+  width: 3em;
+}
+
+.Event-detail {
+  display: grid;
+  grid-template-columns: 220px 200px;
+  grid-template-rows: 1fr;
+  margin-top: 2em;
+}
+
+.Event-price {
+  margin-top: 2em;
+  transform: translate(-1em, -1.4em);
+}
+
+.Event-detail .date-detail {
+  margin-left: 2.3em;
+  transform: translate(0, -4em);
+}
+
+.date-detail .year {
+  font-size: 1.8em;
+  margin-left: 3.4em;
+}
+
+.date-detail .mois {
+  font-size: 1.7em;
+  transform: translate(0.8em, 0.4em);
+}
+
+.date-detail .trois {
+  transform: translate(0.3em, 0.6em);
+  font-size: 4em;
+}
+.adresse {
+  margin: 1em 0 0 1em;
+  transform: translate(0, -3.5em);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 2em;
+  background-color: #e4bd23;
+  transform: translate(1.2em);
+}
+
+.location h3 {
+  text-align: center;
+}
+
+.Sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  width: 19em;
+  height: 2.5em;
+  transform: translate(1.5em, -5em);
+}
+
+.icon {
+  width: 2em;
+}
+
+.icon-list-items {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.icon-list-items li {
+  list-style: none;
+  width: fit-content;
+  height: 2em;
+}
+
+.icon-list-items li img {
+  width: 3em;
+}
+
+.Event-price {
+  margin-top: 1.78em;
+  margin-left: 0.5em;
+}
+
+.Event-detail {
+  transform: translate(-2em);
+}
+
+.trait {
+  transform: translate(25em, -55em);
+}
+
+.Fcfa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 2em;
+  background-color: #e4bd23;
+}
+
+.Fcfa h3 {
+  text-align: center;
+}
+
+/**IMAGES SECTION**/
+
+.image img {
+  width: 60em;
+  transform: translate(-6em, -23em);
+}
+
+.biNum {
+  color: #f0f0f0;
+  transform: rotate(-90deg) translate(53em, 11em);
+}
+
+.scan {
+  width: fit-content;
+}
+
+.scan p {
+  color: #c9c4c4;
+  z-index: 5;
+  transform: translate(13em, -97em) rotate(-90deg);
+}
+
+.qr-code {
+  color: white;
+  transform: translate(19em, -87em);
+}
+
+.scan-p {
+  font-size: 1em;
+  color: #f0f0f0;
+  transform: translate(41.5em, -91em);
+}
