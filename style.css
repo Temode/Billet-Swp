@@ -106,7 +106,10 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  border: solid;
+  border-color: #f0f0f0;
+  border-radius: 5px;
+  gap: 1.5 em;
   width: 19em;
   height: 2.5em;
   transform: translate(1.5em, -5em);
@@ -118,7 +121,7 @@ h3 {
 
 .icon-list-items {
   display: flex;
-  gap: 2em;
+  gap: 5px;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -191,4 +194,56 @@ h3 {
   font-size: 1em;
   color: #f0f0f0;
   transform: translate(41.5em, -91em);
+}
+
+.event-text {
+  transform: translate(40em, -90em);
+}
+
+.event-text h3 {
+  color: #f0f0f0;
+}
+
+.et1 {
+  transform: translate(2.9em);
+}
+
+.et2 {
+  font-size: 1em;
+  transform: translate(-3em, 1.3em);
+}
+
+.event-text .croix-rouge {
+  width: 1.4em;
+  transform: translate(-4em, -1em);
+}
+
+.latesScan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  transform: translate(-20.4em, 1.8em);
+}
+
+.scan-Laguna {
+  width: 100px;
+}
+
+.scan-Fcfa {
+  width: 100px;
+}
+
+.scan-Laguna h3 {
+  font-size: small;
+}
+
+.scan-Fcfa h3 {
+  font-size: small;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
